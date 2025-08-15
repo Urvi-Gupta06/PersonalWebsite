@@ -152,7 +152,7 @@ const Chatbot = () => {
     return (
         <>
             {isTouring && (
-                <div className="fixed bottom-[20px] w-[80%] left-1/2 transform -translate-x-1/2 bg-pink-200/60 text-black px-4 py-2 rounded shadow z-100 text-center">
+                <div className="fixed bottom-[20px] w-[80%] left-1/2 transform -translate-x-1/2 bg-pink-200 text-black dark:bg-pink-900 dark:text-white px-4 py-2 rounded shadow z-100 text-center">
                     <p className="font-semibold">{tourText}</p>
                 </div>
             )}
