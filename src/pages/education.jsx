@@ -49,7 +49,7 @@ const Education = () => {
                     <div className="flex flex-col items-center justify-center gap-20 w-full">
                         
                         <EducationComponent
-                            Image="src/education_images/umass.jpg"
+                            Image="/education_images/umass.jpg"
                             Title="Academics"
                             Text1={<><strong>University of Massachusetts Amherst</strong>, Exp. Graduation: May 2028</>}
                             Text2={<><strong>Honors B.S. in Computer Science with Business Minor & Letter of Specialization in Creative Writing</strong>, GPA: 3.9/4.0</>}
@@ -59,7 +59,7 @@ const Education = () => {
                         />
 
                         <EducationComponent
-                            Image="src/education_images/cocurriculars.png"
+                            Image="/education_images/cocurriculars.png"
                             Title="Co-Curriculars"
                             Text1={<><strong>HackUMass</strong>: Sponsorship Team</>}
                             Text2={<><strong>Women in Computer Science</strong>: Co-Chair</>}

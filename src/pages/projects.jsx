@@ -50,7 +50,7 @@ const Projects = () => {
                     <div className="flex flex-col items-center justify-center gap-20 w-full">
                         {/* Project Component */}
                         <ProjectComponent
-                            Image="src/Project_Image/pennywise.png"
+                            Image="/Project_Image/pennywise.png"
                             Number="01"
                             Title="PennyWise"
                             ImageLink="https://github.com/Urvi-Gupta06/HackHer4132025"
@@ -61,7 +61,7 @@ const Projects = () => {
                         />
 
                         <ProjectComponent
-                            Image="src/Project_Image/code_collab.png"
+                            Image="/Project_Image/code_collab.png"
                             Number="02"
                             Title="Customizable Portfolio Website Template"
                             ImageLink="https://github.com/rbose21-05/PersonalPortfolio_CodeCollab"
@@ -70,7 +70,7 @@ const Projects = () => {
                         />
 
                         <ProjectComponent
-                            Image="src/Project_Image/datasystem.jpg"
+                            Image="/Project_Image/datasystem.jpg"
                             Number="03"
                             Title="Data Management System"
                             ImageLink="https://www.linkedin.com/in/urvi-guptaa/details/projects/"

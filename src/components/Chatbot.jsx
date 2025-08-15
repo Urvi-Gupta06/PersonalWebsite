@@ -44,7 +44,7 @@ const Chatbot = () => {
         const trimmedInput = input.trim();
         var response = "I'm not sure how to respond to that. For further questions, please refer to the buttons below or reach out through the contact page.";
         if (trimmedInput === "Give me a tour of this website.") {
-            response = "Sure, let me take you through this portfolio!";
+            response = "Sure, let me take you through this portfolio! I would recommend taking the tour on desktop for the best experience.";
             startTour();
         } else if (trimmedInput === "What are Urvi's hobbies?") {
             response =
