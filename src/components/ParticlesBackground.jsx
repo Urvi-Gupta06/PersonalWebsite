@@ -160,7 +160,6 @@ const ParticlesBackground = () => {
         resizeCanvas();
 
         window.addEventListener("resize", resizeCanvas);
-        window.addEventListener("scroll", resizeCanvas, { passive: true }); 
 
         const mouseMoveHandler = (e) => {
             mouse.current.x = e.clientX;
@@ -179,7 +178,6 @@ const ParticlesBackground = () => {
 
         return () => {
             window.removeEventListener("resize", resizeCanvas);
-            window.removeEventListener("scroll", resizeCanvas);
             window.removeEventListener("mousemove", mouseMoveHandler);
             window.removeEventListener("mouseleave", mouseLeaveHandler);
             cancelAnimationFrame(animationFrameId.current);
