@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Verdana&display=swap');
+@custom-variant dark (&:where(.dark, .dark *));
+/* Global fonts */
+html {
+    font-family: 'Verdana', monospace;
+    scroll-behavior: smooth;
+}
+
+/* Headings use Alata */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial';
+}
+
+/* Stronger rule to override inline styles from the library */
+.vertical-timeline-element-date.timeline-date {
+  color: #ffffff !important;
+  font-weight: bold !important;
+  opacity: 1 !important; /* ensures dark mode opacity changes don't affect it */
+}
