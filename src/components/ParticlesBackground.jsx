@@ -15,7 +15,7 @@ const ParticlesBackground = () => {
         particleCount: 30,
         maxVelocity: 0.2,
         connectionDistance: 100,
-        particleRadius: 3,
+        particleRadius: 1.5,
         lineColor:
             mode === "dark"
                 ? "rgba(255, 255, 255, 0.8)" // White in dark mode
