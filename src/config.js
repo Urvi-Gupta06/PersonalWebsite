@@ -1,6 +1,6 @@
 export default {
     siteTitle: "Urvi Gupta",
-    tagline: "Built with React.js and Tailwind CSS",
+    tagline: "Built with React.js, Vite, and Tailwind CSS",
     meta: {
         description:
             "Personal portfolio showcasing projects, skills and contact information.",

@@ -66,7 +66,7 @@ const Projects = () => {
                             Title="Customizable Portfolio Website Template"
                             ImageLink="https://github.com/Urvi-Gupta06/Customizable-Portfolio-Website-Template"
                             Text1="To help students creatively showcase their strengths and journeys during job applications, I worked in a team of six to develop a customizable portfolio website template."
-                            Text2="This user-friendly template incorporates clean, reponsive UI and is built with React.js, Tailwind CSS, and TanStack Router."
+                            Text2="This user-friendly template incorporates clean, reponsive UI and is built with React.js, Vite, Tailwind CSS, and TanStack Router."
                         />
 
                         <ProjectComponent
